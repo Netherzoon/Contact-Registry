@@ -15,7 +15,7 @@ namespace ContactRegistryLibrary
     /// </summary>
     public class ContactSorter: System.Collections.IComparer
     {
-        public int Compare(object x, object y)
+        public int Compare(object x, object y) // tillfällig kommentar
         {
             Type typ = x.GetType();
             Type typ2 = y.GetType();
