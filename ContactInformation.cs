@@ -24,7 +24,7 @@ namespace ContactRegistryLibrary
         {
             cInformation_ = cInformation;
             comment_ = comment;
-        }
+        } // fixar problemet
 
         /// <summary>
         /// Hämtar all information för smidighets skull. 
